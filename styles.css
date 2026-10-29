@@ -1,3 +1,24 @@
+/* Använder box modellen 
+   borderbox för ALLA element 
+   När vi sätter Width/Height på en element gäller
+   Width/Height = content + padding + border
+   så är HELA elementen den dimensionen. 
+   Vid content-box så är
+   Width = content
+   Height = content
+   Vilket gör att HELA elements oftast ser större ut på sidan. Svårare att
+   jobba med
+*/
+*, *::before, *::after {
+   box-sizing: border-box; 
+}
+
+/*  */
+body {
+   background-color: #fffaf3; 
+   margin: 0; 
+}
+
 /* Dag 3: grunder och boxmodell. Följ README.md och design.md.
    TODO 1: box-sizing (överst)
    TODO 2: body
