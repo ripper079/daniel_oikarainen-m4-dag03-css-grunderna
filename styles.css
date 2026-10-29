@@ -107,7 +107,9 @@ article {
 
 main {
    max-width: 1100px;
-   margin: 0 auto;
+   margin: 0 auto;   /* Centrerar main elementet */
+   padding: var(--spacing-24);
+   /* background-color: orange; */
 }
 
 /* Dag 3: grunder och boxmodell. Följ README.md och design.md.
