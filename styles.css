@@ -101,6 +101,11 @@ article {
    padding: var(--padding-vertical);
    margin-bottom: var(--spacing-16);
 
+/*   max-width: 100%;*/
+/*   height: auto; */
+}
+
+article img {
    max-width: 100%;
    height: auto;
 }
@@ -112,12 +117,21 @@ main {
    /* background-color: orange; */
 }
 
+.knapp {
+   display: inline-block;
+   background-color: var(--button-color);
+   color: var(--primary-text-light-color);
+   padding: 12px 12px;
+   border-radius: 6px;
+   text-decoration: none;
+}
+
 /* Dag 3: grunder och boxmodell. Följ README.md och design.md.
    TODO 1: box-sizing (överst)         ----------- [DONE]
    TODO 2: body                        ----------- [DONE]
    TODO 3: header och footer           ----------- [DONE]
    TODO 4: nav ul (ta bort punkter)    ----------- [DONE]
-   TODO 5: article (kort)
-   TODO 6: main (centrerat, max-bredd)
-   TODO 7: .knapp
+   TODO 5: article (kort)              ----------- [DONE]
+   TODO 6: main (centrerat, max-bredd) ----------- [DONE]
+   TODO 7: .knapp                      ----------- [DONE]
 */
