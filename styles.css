@@ -24,7 +24,11 @@
    --spacing-16:  16px;    /* Medium*/    
    --spacing-24:  24px;    /* Large */         
    --spacing-32:  32px;    /* X-Large */    
-   --spacing-48:  48px;    /* XL-Large */        
+   --spacing-48:  48px;    /* XL-Large */
+   
+   /* Padding  */
+   --padding-vertical:     16px;
+   --padding-horizontal:   24px;
 
 }
 
