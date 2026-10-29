@@ -30,6 +30,16 @@
    --padding-vertical:     16px;
    --padding-horizontal:   24px;
 
+   /* Border Radius  */
+   --border-radius-small:  2px;
+   --border-radius-medium: 4px;
+   --border-radius-large:  8px;
+   --border-radius-xlarge: 16px;
+   
+   /* Default text color */
+   --primary-text-light-color:#B8B8B8;
+   --primary-text-dark-color:#333333;
+
 }
 
 /* Använder box modellen 
@@ -51,6 +61,26 @@
 body {
    background-color: #fffaf3; 
    margin: 0; 
+}
+
+/* Sidhuvud */
+header {
+   background-color: var(--header-color);
+}
+
+/* Sidfot */
+footer {
+   background-color: var(--footer-color);
+}
+
+header, footer {
+   color:  var(--primary-text-light-color);
+   /* Parameter Nr 1 är i y-led  and Parameter nr 2 är i x-led */
+   padding: var(--padding-vertical) var(--padding-horizontal);
+}
+
+footer a {
+   color: var(--primary-text-light-color);
 }
 
 /* Dag 3: grunder och boxmodell. Följ README.md och design.md.
