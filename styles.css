@@ -1,7 +1,7 @@
 /* Variabler */
 :root {
    /* Color */
-   --body-color : #3498db;
+   --body-color : #fffaf3;
    --header-color: #5b3a29;         /* Sidhuvud */
    --footer-color: #2b1c14;         /* Sidfot */
    
@@ -12,7 +12,7 @@
    --button-hover-color: #6f0c0c;   /* Knapp - Hover tillstånd */
 
    --paragraph-color: #222222;      /* Brödtext */
-   --header-color: #3b2418;         /* Rubrik h1 till h3 */
+   --heading-color: #3b2418;         /* Rubrik h1 till h3 */
 
    --card-background-color:#ffffff; /* Article */
    --card-border-color:#e3d5c3;     /* Article */
@@ -66,6 +66,7 @@ body {
 /* Sidhuvud */
 header {
    background-color: var(--header-color);
+
 }
 
 /* Sidfot */
@@ -79,6 +80,10 @@ header, footer {
    padding: var(--padding-vertical) var(--padding-horizontal);
 }
 
+header li a {
+   color: var(--primary-text-light-color);
+}
+
 footer a {
    color: var(--primary-text-light-color);
 }
@@ -87,6 +92,22 @@ nav ul {
    list-style: none;
    padding: 0;
    margin: 0;
+}
+
+article {
+   background-color: var(--card-background-color);   
+   border: 1px solid var(--card-border-color);
+   border-radius: var(--border-radius-large);
+   padding: var(--padding-vertical);
+   margin-bottom: var(--spacing-16);
+
+   max-width: 100%;
+   height: auto;
+}
+
+main {
+   max-width: 1100px;
+   margin: 0 auto;
 }
 
 /* Dag 3: grunder och boxmodell. Följ README.md och design.md.
