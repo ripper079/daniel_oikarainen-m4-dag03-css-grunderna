@@ -1,3 +1,24 @@
+/* Variabler */
+:root {
+   --body-color : #3498db;
+   --header-color: #5b3a29;         /* Sidhuvud */
+   --footer-color: #2b1c14;         /* Sidfot */
+   
+   --link-color: #8c1010;           /* Länkar */
+   --price-color: #8c1010;          /* Priser */
+
+   --button-color: #8c1010;         /* Knapp - Normal tillstånd */
+   --button-hover-color: #6f0c0c;   /* Knapp - Hover tillstånd */
+
+   --paragraph-color: #222222;      /* Brödtext */
+   --header-color: #3b2418;         /* Rubrik h1 till h3 */
+
+   --card-background-color:#ffffff; /* Article */
+   --card-border-color:#e3d5c3;     /* Article */
+
+   --hero-background-color: #f3e3cf;   /* Hero Sektionen */    
+}
+
 /* Använder box modellen 
    borderbox för ALLA element 
    När vi sätter Width/Height på en element gäller
@@ -20,8 +41,8 @@ body {
 }
 
 /* Dag 3: grunder och boxmodell. Följ README.md och design.md.
-   TODO 1: box-sizing (överst)
-   TODO 2: body
+   TODO 1: box-sizing (överst)         ----------- [DONE]
+   TODO 2: body                        ----------- [DONE]
    TODO 3: header och footer
    TODO 4: nav ul (ta bort punkter)
    TODO 5: article (kort)
