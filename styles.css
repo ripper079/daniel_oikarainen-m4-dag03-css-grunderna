@@ -83,11 +83,17 @@ footer a {
    color: var(--primary-text-light-color);
 }
 
+nav ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
 /* Dag 3: grunder och boxmodell. Följ README.md och design.md.
    TODO 1: box-sizing (överst)         ----------- [DONE]
    TODO 2: body                        ----------- [DONE]
-   TODO 3: header och footer
-   TODO 4: nav ul (ta bort punkter)
+   TODO 3: header och footer           ----------- [DONE]
+   TODO 4: nav ul (ta bort punkter)    ----------- [DONE]
    TODO 5: article (kort)
    TODO 6: main (centrerat, max-bredd)
    TODO 7: .knapp
