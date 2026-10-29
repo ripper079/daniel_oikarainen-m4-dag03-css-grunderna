@@ -1,5 +1,6 @@
 /* Variabler */
 :root {
+   /* Color */
    --body-color : #3498db;
    --header-color: #5b3a29;         /* Sidhuvud */
    --footer-color: #2b1c14;         /* Sidfot */
@@ -16,7 +17,15 @@
    --card-background-color:#ffffff; /* Article */
    --card-border-color:#e3d5c3;     /* Article */
 
-   --hero-background-color: #f3e3cf;   /* Hero Sektionen */    
+   --hero-background-color: #f3e3cf;   /* Hero Sektionen */
+   
+   /* Spacing - 8 Point system - in pixels */
+   --spacing-8:   8px;     /* Small */   
+   --spacing-16:  16px;    /* Medium*/    
+   --spacing-24:  24px;    /* Large */         
+   --spacing-32:  32px;    /* X-Large */    
+   --spacing-48:  48px;    /* XL-Large */        
+
 }
 
 /* Använder box modellen 
